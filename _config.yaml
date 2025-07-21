@@ -1,0 +1,7 @@
+remote_theme: CloudCannon/vonge-jekyll-bookshop-template
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+# Optional site metadata:
+title: My Portfolio
+description: A showcase of my projects and experience
