@@ -1,0 +1,153 @@
+Mostafa Alavi
+
+Last Updated on 4th March 2025
+
+Senior Data Scientist
+
+× +98 939 632 8334 Ɵ mostafa.alavi25@gmail.com ] alavi‑mostafa  Tehran, Iran
+
+Summary
+AI and Data Science Specialist with over 5 years of hands‑on experience in developing cutting‑edge
+generative AI solutions and advanced search systems. Recognized for strong problem‑solving abilities,
+excellent time management, and a robust theoretical foundation, I have successfully led projects that
+deliver measurable innovation. Eager to leverage my expertise and passion for technology, I am actively
+seeking opportunities to drive transformative initiatives in dynamic, forward‑thinking organizations.
+
+Work Experience
+SENIOR AI RESEARCHER AND DEVELOPER Limytd AG
+Ł 2024 ‑ Present (1 year and 2 months)
+
+ Remote, Switzerland
+
+Speax‑AI is an innovative startup in the dubbing industry, utilizing AI to translate videos across multiple
+languages, providing high‑quality, culturally appropriate dubbing solutions.
+• Delivered an MVP for a multilingual lip‑syncing application, improving audio‑visual alignment by
+45% and visual quality by 30%.
+• Enhanced the translation and paraphrasing accuracy for over 10 language pairs, contributing to a
+25% increase in user engagement and satisfaction.
+DATA(QUANT) SCIENTIST Mofid Securities
+Ł 2022 ‑ 2024 (2 years)
+
+ Tehran, Iran
+
+Mofid Securities is Iran’s largest private financial institution in the stock market exchange and the leading
+brokerage, serving over 15 million users with an annual income of over 500 million dollars. The com‑
+pany tackles diverse AI challenges to enhance financial services and customer experience.
+• Reduced algorithm validation time by 50% and improved team productivity by 25% by devel‑
+oping and launching a backtester module for ML and DL evaluation.
+• Increased predictive accuracy by 15% and portfolio returns by 20% across multiple markets (in‑
+cluding stocks and gold) by providing actionable insights to a 10‑member AI and Finance team.
+DATA SCIENTIST Mohaymen
+Ł 2021 ‑ 2022 (1 year)
+
+ Tehran, Iran
+
+Mohaymen is a leading company in Iran, specializing in data infrastructure and big‑data analytics, with a
+focus on projects related to taxes and financial transactions.
+• Reduced fraudulent transaction attempts by 40% and enhanced security for over 1,000 users by
+designing a Face Authentication engine with 99% accuracy in detection and 90% success in anti‑
+spoofing (ISO level 1).
+• Advanced the Face Anti‑spoofing module with deep learning, enhancing dataset integrity for robust
+detection of ISO 30107‑3 levels 1 and 2 attacks.
+ML ENGINEER Rasa Salamat
+Ł 2020‑2021 (1 year)
+
+ Tehran, Iran
+
+Rasa Salamat is a health tech startup specializing in digital pathology, developing AI and image
+processing solutions to assist pathologists in cancer detection. Their technology is actively used by
+leading pathologists in Tehran’s most prominent hospitals.
+
+• Tripled image stitching speed by optimizing C++ algorithms with GPU acceleration, ensuring seam‑
+less image integration.
+• Halved upload times by optimizing image compression algorithms, boosting data handling effi‑
+ciency.
+ML ENGINEER Faraz Ertebat
+Ł 2019 ‑ 2020 (1 year and 8 months)
+
+ Tehran, Iran
+
+A leading telecom solution provider in Iran, ranked among the top three in the industry.
+• Developed and implemented advanced Automatic Modulation Recognition (AMR) techniques using
+machine learning and deep learning models, achieving a 20% improvement in signal
+modulation detection accuracy. This enhancement enabled the replacement of legacy
+communication modules in receivers, thereby reducing device power consumption.
+
+Education
+SHARIF UNIVERSITY OF TECHNOLOGY (RANKED 1ST IN IRAN)
+M.Sc. in Electrical Engineering (Communication Systems)
+Ł 2022 ‑ 2024
+
+ Tehran, Iran
+th
+
+• Ranked 19 among 10,000 M.Sc. university entrance exam
+• GPA: 3.6/4
+SHARIF UNIVERSITY OF TECHNOLOGY (RANKED 1ST IN IRAN)
+B.Sc. in Electrical Engineering
+Ł 2016 ‑ 2020
+
+ Tehran, Iran
+
+• Ranked 70th among 160,000 B.Sc. university entrance exam
+• Ranked among the top 30% of graduated students.
+• GPA: 3.6/4
+
+Skills
+AI
+SOFTWARE DEVELOPMENT
+– Theoretical and Practical ML, DL and Sta‑
+– Proficient in Python and C;Familiar with C++,
+tistical Learning (Pytorch, Tensorflow, Keras,
+R
+Scikit‑Learn, Statsmodels), Deployment and
+– Proficient in Vector Databases (Elasticsearch)
+MLOps(FastAPI, Flask, MLFlow, Optimization,
+;Familiar with (SQLite ,SQL Server, Post‑
+Scalability)
+greSQL)
+– NLP , Computer Vision, Voice Processing, Time
+– Version Control and CI/CD pipelines(Git);
+Series , Generative AI (LLM, Diffusion Models,
+Containerization tools Docker
+Text‑to‑Image, Text‑to‑Video, Audio‑to‑Video, ...)
+– Familiar with cloud platforms (AWS, Google
+Cloud, Azure)
+– Vector Databases (Elasticsearch, Faiss, HNSW)
+and Familiar with Big data technologies (Spark,
+Hadoop)
+
+Notable Projects
+FOOTBALL VIDEO SUMMARIZATION
+
+LARGE-SCALE IMAGE SEARCH SYSTEM
+
+Iran’s National Elites Foundation
+
+Ł 2023 ‑ 2024
+
+Ł 2019 ‑ 2020
+
+ Tehran, Iran
+
+Demo| Website| GitHub
+• Engineered deep learning perspective
+transformation techniques,
+boosting
+player tracking accuracy by 30% and re‑
+ducing data processing time by 40%, aiding
+coaches and reporters in decision‑making.
+
+ Tehran, Iran
+
+• Developed an image‑search system with a
+
+90% recall. Optimized the vector database
+and metadata detection modules, achieving
+a mean finding time of 0.1 seconds per im‑
+age.
+
+• Enhanced system efficiency and performance
+by leading a team of 5 AI developers.
+
+
