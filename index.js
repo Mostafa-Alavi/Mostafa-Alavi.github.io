@@ -41,3 +41,29 @@ window.addEventListener("scroll", () => {
     alterStyles(isBackToTopRendered);
   }
 });
+
+/* -----------------------------------------
+  Gallery functionality 
+ ---------------------------------------- */
+
+function changeMainImage(clickedThumb, imageSrc) {
+  // Find the main image in the same gallery
+  const gallery = clickedThumb.closest('.work__gallery');
+  const mainImage = gallery.querySelector('.work__gallery-main-image');
+  
+  // Update the main image source
+  mainImage.src = imageSrc;
+  
+  // Remove active class from all thumbnails in this gallery
+  const allThumbs = gallery.querySelectorAll('.work__gallery-thumb');
+  allThumbs.forEach(thumb => thumb.classList.remove('active'));
+  
+  // Add active class to clicked thumbnail
+  clickedThumb.classList.add('active');
+  
+  // Add a subtle animation effect
+  mainImage.style.opacity = '0.7';
+  setTimeout(() => {
+    mainImage.style.opacity = '1';
+  }, 150);
+}
