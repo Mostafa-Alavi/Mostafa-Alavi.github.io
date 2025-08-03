@@ -46,24 +46,47 @@ window.addEventListener("scroll", () => {
   Gallery functionality 
  ---------------------------------------- */
 
+// Add error handling for images
+document.addEventListener('DOMContentLoaded', function() {
+  const images = document.querySelectorAll('img');
+  images.forEach(img => {
+    img.addEventListener('error', function() {
+      console.error('Failed to load image:', this.src);
+    });
+  });
+});
+
 function changeMainImage(clickedThumb, imageSrc) {
-  // Find the main image in the same gallery
-  const gallery = clickedThumb.closest('.work__gallery');
-  const mainImage = gallery.querySelector('.work__gallery-main-image');
-  
-  // Update the main image source
-  mainImage.src = imageSrc;
-  
-  // Remove active class from all thumbnails in this gallery
-  const allThumbs = gallery.querySelectorAll('.work__gallery-thumb');
-  allThumbs.forEach(thumb => thumb.classList.remove('active'));
-  
-  // Add active class to clicked thumbnail
-  clickedThumb.classList.add('active');
-  
-  // Add a subtle animation effect
-  mainImage.style.opacity = '0.7';
-  setTimeout(() => {
-    mainImage.style.opacity = '1';
-  }, 150);
+  try {
+    // Find the main image in the same gallery
+    const gallery = clickedThumb.closest('.work__gallery');
+    if (!gallery) {
+      console.error('Gallery not found');
+      return;
+    }
+    
+    const mainImage = gallery.querySelector('.work__gallery-main-image');
+    if (!mainImage) {
+      console.error('Main image not found');
+      return;
+    }
+    
+    // Update the main image source
+    mainImage.src = imageSrc;
+    
+    // Remove active class from all thumbnails in this gallery
+    const allThumbs = gallery.querySelectorAll('.work__gallery-thumb');
+    allThumbs.forEach(thumb => thumb.classList.remove('active'));
+    
+    // Add active class to clicked thumbnail
+    clickedThumb.classList.add('active');
+    
+    // Add a subtle animation effect
+    mainImage.style.opacity = '0.7';
+    setTimeout(() => {
+      mainImage.style.opacity = '1';
+    }, 150);
+  } catch (error) {
+    console.error('Error in changeMainImage:', error);
+  }
 }
