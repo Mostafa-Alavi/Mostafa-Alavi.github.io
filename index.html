@@ -42,9 +42,11 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
+          <li class="nav__item"><a href="#summary" class="nav__link">Summary</a></li>
           <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
           <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
           <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
           <li class="nav__item">
             <a href="#contact" class="nav__link">Contact</a>
           </li>
@@ -83,6 +85,23 @@
 
   <main role="main">
 
+    <!-- ***** Summary ***** -->
+
+    <section class="summary" id="summary">
+      <div class="row">
+        <h2>Summary</h2>
+        <div class="summary__content">
+          <p>
+            <strong>AI and Data Science Specialist</strong> with over <strong>6 years of hands-on experience</strong> in developing <strong>cutting-edge 
+            generative AI solutions</strong> and <strong>advanced search systems</strong>. Recognized for <strong>strong problem-solving abilities</strong>, 
+            excellent time management, and a <strong>robust theoretical foundation</strong>, I have successfully <strong>led projects</strong> that 
+            deliver <strong>measurable innovation</strong>. Eager to leverage my expertise and passion for technology, I am actively 
+            seeking opportunities to drive <strong>transformative initiatives</strong> in dynamic, forward-thinking organizations.
+          </p>
+        </div>
+      </div>
+    </section>
+
     <!-- ***** Work ***** -->
 
     <section class="work" id="work">
@@ -91,7 +110,43 @@
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
-
+          <div class="work__box">
+            <div class="work__logo-box">
+              <img src="./images/freelance.png" class="work__logo" alt="Freelance AI Team Leader">
+            </div>
+            <div class="work__text">
+              <h3>AI Team Leader (2023 - Present)</h3>
+              <h4 class="work__location">Remote</h4>
+              <p>
+                Leading different teams across multiple AI projects from research until deployment, managing end-to-end AI solutions for various enterprise clients and organizations.
+              </p>
+              <ul class="work__list">
+                <li>Successfully managed and delivered multiple AI projects including chatbot systems, image quality assessment services, and super-resolution solutions.</li>
+                <li>Led cross-functional teams of AI developers and researchers to implement cutting-edge solutions for enterprise clients.</li>
+                <li>Specialized in end-to-end project management from initial research and development through to production deployment and maintenance.</li>
+              </ul>
+            </div>
+            <div class="work__image-box">
+              <div class="work__gallery">
+                <div class="work__gallery-main">
+                  <img src="./images/chatbot.png" class="work__gallery-main-image" alt="AI Team Leadership Main" loading="lazy" />
+                </div>
+                <div class="work__gallery-thumbnails">
+                  <img src="./images/chatbot.png" class="work__gallery-thumb active" alt="AI Projects 1" onclick="changeMainImage(this, './images/chatbot.png')" />
+                  <img src="./images/chatbot3.png" class="work__gallery-thumb active" alt="AI Projects 1" onclick="changeMainImage(this, './images/chatbot3.png')" />
+                  <img src="./images/IQA1.png" class="work__gallery-thumb active" alt="AI Projects 1" onclick="changeMainImage(this, './images/IQA1.png')" />
+                  <img src="./images/SR1.png" class="work__gallery-thumb active" alt="AI Projects 1" onclick="changeMainImage(this, './images/SR1.png')" />
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Work Divider -->
+          <div class="work-divider">
+            <div class="work-divider-line"></div>
+          </div>
+          <div class="work__box">
+            
           <div class="work__box">
             <div class="work__logo-box">
               <a href="https://speax.ai/en" target="_blank">
@@ -100,6 +155,7 @@
             </div>
             <div class="work__text">
               <h3>Senior AI Researcher and Developer - Limytd AG (2024 - Present)</h3>
+              <h4 class="work__location">Remote, Switzerland</h4>
               <p>
                 Speax-AI is an innovative startup in the dubbing industry, utilizing AI to translate videos across multiple languages, providing high-quality, culturally appropriate dubbing solutions.
               </p>
@@ -125,13 +181,12 @@
                 </div>
               </div>
             </div>
+            </div>
           </div>
-
           <!-- Work Divider -->
           <div class="work-divider">
             <div class="work-divider-line"></div>
           </div>
-
           <div class="work__box">
             <div class="work__logo-box">
               <a href="https://www.emofid.com/" target="_blank">
@@ -140,6 +195,7 @@
             </div>
             <div class="work__text">
               <h3>Senior Data(Quant) Scientist - Mofid Securities (2022 - 2024)</h3>
+              <h4 class="work__location">Tehran, Iran</h4>
               <p>
                 Mofid Securities is Iran's largest private financial institution in the stock market exchange and the leading brokerage, serving over 15 million users with an annual income of over 500 million dollars. The company tackles diverse AI challenges to enhance financial services and customer experience.
               </p>
@@ -157,21 +213,19 @@
             <div class="work__image-box">
               <div class="work__gallery">
                 <div class="work__gallery-main">
-                  <img src="./images/Mofid_img1.png" class="work__gallery-main-image" alt="Mofid Securities Main" loading="lazy" />
+                  <img src="./images/Mofid_img3.png" class="work__gallery-main-image" alt="Mofid Securities Main" loading="lazy" />
                 </div>
                 <div class="work__gallery-thumbnails">
-                  <img src="./images/Mofid_img1.png" class="work__gallery-thumb active" alt="Video Dubbing 1" onclick="changeMainImage(this, './images/Mofid_img1.png')" />
-                  <img src="./images/Mofid_img2.png" class="work__gallery-thumb" alt="Video Dubbing 2" onclick="changeMainImage(this, './images/Mofid_img2.png')" />
+                  <img src="./images/Mofid_img3.png" class="work__gallery-thumb active" alt="Video Dubbing 1" onclick="changeMainImage(this, './images/Mofid_img3.png')" />
+                  <img src="./images/Mofid_img1.png" class="work__gallery-thumb" alt="Video Dubbing 2" onclick="changeMainImage(this, './images/Mofid_img1.png')" />
                 </div>
               </div>
             </div>
           </div>
-
           <!-- Work Divider -->
           <div class="work-divider">
             <div class="work-divider-line"></div>
           </div>
-
           <div class="work__box">
             <div class="work__logo-box">
               <a href="https://mohaymen.ir/" target="_blank">
@@ -180,6 +234,7 @@
             </div>
             <div class="work__text">
               <h3>Data Scientist - Mohaymen (2021 - 2022)</h3>
+              <h4 class="work__location">Tehran, Iran</h4>
               <p>
                 Mohaymen is a leading company in Iran, specializing in data infrastructure and big-data analytics, with a focus on projects related to taxes and financial transactions.
               </p>
@@ -207,15 +262,14 @@
               </div>
             </div>
           </div>
-
           <!-- Work Divider -->
           <div class="work-divider">
             <div class="work-divider-line"></div>
           </div>
-
           <div class="work__box">
             <div class="work__text">
               <h3>ML Engineer - Rasa Salamat (2020 - 2021)</h3>
+              <h4 class="work__location">Tehran, Iran</h4>
               <p>
                 Rasa Salamat is a health tech startup specializing in digital pathology, developing AI and image processing solutions to assist pathologists in cancer detection. Their technology is actively used by leading pathologists in Tehran’s most prominent hospitals.
               </p>
@@ -245,12 +299,10 @@
               </div>
             </div>
           </div>
-
           <!-- Work Divider -->
           <div class="work-divider">
             <div class="work-divider-line"></div>
           </div>
-
           <div class="work__box">
             <div class="work__logo-box">
               <a href="#" target="_blank">
@@ -259,6 +311,7 @@
             </div>
             <div class="work__text">
               <h3>AI Researcher - Faraz Ertebat (2019 - 2020)</h3>
+              <h4 class="work__location">Tehran, Iran</h4>
               <p>
                 A leading telecom solution provider in Iran, ranked among the top three in the industry.
               </p>
@@ -301,7 +354,7 @@
           <div class="education__box">
             <div class="education__image-box">
               <a href="https://www.sharif.ir/" target="_blank">
-                <img src="./images/sharif_logo.svg" class="education__image" alt="Sharif University of Technology" />
+                <img src="./images/sharif_logo.png" class="education__image" alt="Sharif University of Technology" />
               </a>
             </div>
             <div class="education__text">
@@ -317,7 +370,7 @@
           <div class="education__box">
             <div class="education__image-box">
               <a href="https://www.sharif.ir/" target="_blank">
-                <img src="./images/sharif_logo.svg" class="education__image" alt="Sharif University of Technology" />
+                <img src="./images/sharif_logo.png" class="education__image" alt="Sharif University of Technology" />
               </a>
             </div>
             <div class="education__text">
@@ -346,32 +399,9 @@
       <div class="row">
         <h2>Notable Projects</h2>
         <div class="projects__boxes">
-
           <div class="projects__box">
             <div class="projects__text">
-              <h3>Football Video Summarization (2018 - 2019)</h3>
-              <p>Iran’s National Elites Foundation, Tehran, Iran.</p>
-              <ul class="projects__list">
-                <li>Engineered deep learning perspective transformation techniques, boosting player tracking accuracy by 30% and reducing data processing time by 40%, aiding coaches and reporters in decision-making.</li>
-              </ul>
-              <div class="projects__links">
-                <a href="https://footballanalysis.github.io/" class="link__text">Website</a>
-                <a href="https://github.com/FootballAnalysis/footballanalysis" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="projects__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-          </div>
-
-
-          <!-- Project Divider -->
-          <div class="project-divider">
-            <div class="project-divider-line"></div>
-          </div>
-
-          <div class="projects__box">
-            <div class="projects__text">
-              <h3>Large-Scale Image Search System (2019 - 2020)</h3>
+              <h3>Large-Scale Image Search System (2023 - 2025)</h3>
               <p>Tehran, Iran.</p>
               <ul class="projects__list">
                 <li>Developed an image-search system with a 90% recall. Optimized the vector database and metadata detection modules, achieving a mean finding time of 0.1 seconds per image.</li>
@@ -395,7 +425,189 @@
               </div>
             </div>
           </div>
+          <!-- Project Divider -->
+          <div class="project-divider">
+            <div class="project-divider-line"></div>
+          </div>
+          
+          <div class="projects__box">
+            <div class="projects__text">
+              <h3>Advanced Organizational Knowledge Chatbot (2025)</h3>
+              <p>Remote, Iran.</p>
+              <ul class="projects__list" style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
+                <li><span style="font-size: 20px; font-weight: bold;">Comprehensive Knowledge Integration:</span> Developed and deployed an enterprise-grade chatbot for a major Iranian company, seamlessly integrating multiple books, manuals, and thousands of documents with diverse structures and formats including PDF, Word (DOCX), HTML, JSON, plain text, XML, and structured databases.</li>
+                <li><span style="font-size: 20px; font-weight: bold;">Multi-Format Document Processing:</span> Built robust parsing engines capable of handling various input formats - from complex PDFs with tables and images to structured JSON data, HTML web content, Microsoft Word documents, and legacy text files, ensuring comprehensive knowledge coverage.</li>
+                <li><span style="font-size: 20px; font-weight: bold;">Advanced RAG Architecture:</span> Implemented sophisticated Retrieval-Augmented Generation system featuring reranker algorithms, intelligent query rewriting, and precise referencing capabilities for enhanced accuracy and relevance across all document types.</li>
+                <li><span style="font-size: 20px; font-weight: bold;">User Experience Management:</span> Built comprehensive user history management and advanced dialogue management systems to maintain context across complex multi-turn conversations and user sessions.</li>
+                <li><span style="font-size: 20px; font-weight: bold;">Intelligent Tool Integration:</span> Developed dynamic tool calling capabilities enabling the chatbot to access external APIs, databases, and services based on user queries and context requirements.</li>
+                <li><span style="font-size: 20px; font-weight: bold;">Adaptive Response System:</span> Implemented intelligent response formatting with three distinct modes (short, medium, long) automatically selected based on user preferences, query complexity, and context needs.</li>
+                <li><span style="font-size: 20px; font-weight: bold;">Security & Privacy:</span> Deployed local Large Language Models (LLM) to ensure complete data security and privacy compliance, keeping all sensitive organizational information on-premises.</li>
+                <li><span style="font-size: 20px; font-weight: bold;">Performance Optimization:</span> Applied advanced optimization techniques including query preprocessing, response caching, and intelligent document chunking, achieving sub-second response times for 95% of queries.</li>
+              </ul>
+              <div class="projects__links">
+                <!-- <a href="https://github.com/Mostafa-Alavi" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="projects__code" alt="GitHub">
+                </a> -->
+              </div>
+            </div>
+            <div class="work__image-box">
+              <div class="work__gallery">
+                <div class="work__gallery-main">
+                  <img src="./images/chatbot.png" class="work__gallery-main-image" alt="Organizational Chatbot" />
+                </div>
+                <div class="work__gallery-thumbnails">
+                  <img src="./images/chatbot.png" class="work__gallery-thumb active" alt="Chatbot Interface" onclick="changeMainImage(this, './images/chatbot.png')" />
+                  <img src="./images/chatbot3.png" class="work__gallery-thumb" alt="Chatbot Interface" onclick="changeMainImage(this, './images/chatbot3.png')" />
+                  <img src="./images/chatbot2.png" class="work__gallery-thumb" alt="Chatbot Interface" onclick="changeMainImage(this, './images/chatbot2.png')" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project Divider -->
+          <div class="project-divider">
+            <div class="project-divider-line"></div>
+          </div>
+          
+          <div class="projects__box">
+            <div class="projects__text">
+              <h3>Image Quality Assessment Services (2024 - 2025)</h3>
+              <p>Remote, Iran.</p>
+              <ul class="projects__list">
+                <li>Led the development of Image Quality Assessment for evaluating archived images and providing online services for quality evaluation of new database entries.</li>
+                <li>Implemented state-of-the-art deep learning models for automated quality scoring and assessment, improving database curation efficiency by 60%.</li>
+              </ul>
+              <div class="projects__links">
+                <a href="https://github.com/Mostafa-Alavi" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="projects__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <div class="work__gallery">
+                <div class="work__gallery-main">
+                  <img src="./images/IQA1.png" class="work__gallery-main-image" alt="Image Quality Assessment" />
+                </div>
+                <div class="work__gallery-thumbnails">
+                  <img src="./images/IQA1.png" class="work__gallery-thumb active" alt="Quality Assessment Interface" onclick="changeMainImage(this, './images/IQA1.png')" />
+                  <img src="./images/IQA2.png" class="work__gallery-thumb" alt="Quality Assessment Interface" onclick="changeMainImage(this, './images/IQA2.png')" />
+                  <img src="./images/IQA3.png" class="work__gallery-thumb" alt="Quality Assessment Interface" onclick="changeMainImage(this, './images/IQA3.png')" />
+                  <img src="./images/IQA4.png" class="work__gallery-thumb" alt="Quality Assessment Interface" onclick="changeMainImage(this, './images/IQA4.png')" />
 
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project Divider -->
+          <div class="project-divider">
+            <div class="project-divider-line"></div>
+          </div>
+          
+          <div class="projects__box">
+            <div class="projects__text">
+              <h3>Image Super Resolution Services (2024 - 2025)</h3>
+              <p>Remote, Iran.</p>
+              <ul class="projects__list">
+                <li>Implemented Image/Face super resolution services for enhancing image quality without identity loss, improving visual data quality across multiple applications.</li>
+                <li>Developed advanced neural network architectures achieving 4x resolution enhancement while maintaining facial identity integrity with 95% accuracy.</li>
+              </ul>
+              <div class="projects__links">
+                <a href="https://github.com/Mostafa-Alavi" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="projects__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <div class="work__gallery">
+                <div class="work__gallery-main">
+                  <img src="./images/SR1.png" class="work__gallery-main-image" alt="Super Resolution" />
+                </div>
+                <div class="work__gallery-thumbnails">
+                  <img src="./images/SR1.png" class="work__gallery-thumb active" alt="Super Resolution Results" onclick="changeMainImage(this, './images/SR1.png')" />
+                  <img src="./images/SR2.png" class="work__gallery-thumb" alt="Super Resolution Results" onclick="changeMainImage(this, './images/SR2.png')" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project Divider -->
+          <div class="project-divider">
+            <div class="project-divider-line"></div>
+          </div>
+          
+          <div class="projects__box">
+             <div class="projects__text">
+               <h3>Football Video Summarization (2018 - 2019)</h3>
+               <p>Iran's National Elites Foundation, Tehran, Iran.</p>
+               <ul class="projects__list">
+                 <li>Engineered deep learning perspective transformation techniques, boosting player tracking accuracy by 30% and reducing data processing time by 40%, aiding coaches and reporters in decision-making.</li>
+               </ul>
+               <div class="projects__links">
+                 <a href="https://footballanalysis.github.io/" class="link__text">Website</a>
+                 <a href="https://github.com/FootballAnalysis/footballanalysis" title="View Source Code" target="_blank">
+                   <img src="./images/github.svg" class="projects__code" alt="GitHub">
+                 </a>
+               </div>
+             </div>
+             
+             <div class="work__image-box">
+               <div class="work__gallery">
+                 <div class="work__gallery-main">
+                   <!-- Video Preview Thumbnail -->
+                   <div class="video-preview" onclick="playVideo()" style="position: relative; width: 100%; height: auto;">
+                     <img src="./images/football-preview.png" alt="Football Analysis Video Preview" class="work__gallery-main-image" onerror="this.style.display='none'; this.parentElement.classList.add('no-thumbnail');">
+                     <div class="video-preview-fallback">
+                       <div class="fallback-content">
+                         <h3>Football Video Analysis</h3>
+                         <p>AI-powered player tracking and game analysis</p>
+                       </div>
+                     </div>
+                     <div class="play-button-overlay">
+                       <div class="play-button">
+                         <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                           <circle cx="30" cy="30" r="30" fill="rgba(0,0,0,0.7)"/>
+                           <polygon points="23,18 23,42 42,30" fill="white"/>
+                         </svg>
+                       </div>
+                     </div>
+                   </div>
+                   
+                   <!-- Hidden iframe that will be shown when video is played -->
+                   <iframe id="football-video" src="https://drive.google.com/file/d/1EKKU57IMcwxFUmhhoNCENeo_LtyWDQYv/preview?usp=sharing" allow="autoplay" allowfullscreen style="display: none; width: 100%; height: 400px;" class="work__gallery-main-image"></iframe>
+                 </div>
+                 <div class="work__gallery-thumbnails">
+                   <img src="./images/football-preview.png" class="work__gallery-thumb active" alt="Football Video Preview" onclick="changeMainImage(this, './images/football-preview.png')" />
+                 </div>
+               </div>
+             </div>
+           </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Skills ***** -->
+
+    <section class="skills" id="skills">
+      <div class="row">
+        <h2>Skills</h2>
+        <div class="skills__content">
+          <div class="skills__column">
+            <h3>AI</h3>
+            <ul class="skills__list">
+              <li>Theoretical and Practical ML, DL and Statistical Research And Development (Pytorch, Tensorflow, Keras, Scikit-Learn, OpenCV, StatsModels)</li>
+              <li>Deployment and MLOps (FastAPI, Flask, MLFlow, W&B, Kubernetes, Kubeflow, Optimization, Scalability)</li>
+              <li>NLP, Computer Vision, Voice Processing, Time Series, Generative AI (LLM, Diffusion Models, Text-to-Image, Text-to-Video, Audio-to-Video, ...)</li>
+              <li>Proficient in ChatBot Systems, Multi-agent Systems, Multi-modal Systems and Familiar with Big data technologies (Spark, Hadoop)</li>
+            </ul>
+          </div>
+          <div class="skills__column">
+            <h3>Software Development</h3>
+            <ul class="skills__list">
+              <li>Proficient in Python and C; Familiar with C++, R</li>
+              <li>Proficient in Vector Databases (Milvus, Qdrant, Chroma, Faiss) and ANN algorithms, full-text search (Elasticsearch), SQL(SQLite, PostgreSQL);</li>
+              <li>Version Control (Git) and CI/CD pipelines (GitHub Actions, GitLab CI/CD); Containerization tools Docker(Docker, Podman)</li>
+              <li>Familiar with cloud platforms (AWS, Google Cloud, Azure)</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -444,6 +656,19 @@
     <a href="#top" class="back-to-top" title="Back to Top">
       <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
     </a>
+    
+    <script>
+      // Function to play video when thumbnail is clicked
+      function playVideo() {
+        const preview = document.querySelector('.video-preview');
+        const iframe = document.getElementById('football-video');
+        
+        if (preview && iframe) {
+          preview.style.display = 'none';
+          iframe.style.display = 'block';
+        }
+      }
+    </script>
     <script src="./index.js"></script>
   </body>
 
